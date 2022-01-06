@@ -1,0 +1,71 @@
+.FlagContainer {
+    cursor: pointer;
+    display: flex;
+    transition: background-color 1s;
+    width: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.FlagContainer p {
+    color: white;
+}
+
+
+.inbox {
+    display: flex;
+    cursor: pointer;
+    width: 50px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* border: 1px solid white; */
+}
+
+.inbox-icon {
+    font-size: 20px;
+    color: white;
+    /* align-self: flex-end; */
+}
+
+.inbox-message-number {
+    background-color: tomato;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+.ProfileIcon {
+    display: flex;
+    align-items: center;
+    width: 120px;
+    justify-content: space-between;
+    color: white;
+    padding: 0px 10px;
+    transition: background-color 1s;
+}
+
+.ProfileIcon:hover {
+    background-color: grey;
+}
+
+.ProfileIcon-Cover-Photo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.FlagContainer:hover, .inbox:hover {
+    background-color: gray;
+}
+
+.drop-down-icon {
+    color: white;
+}
