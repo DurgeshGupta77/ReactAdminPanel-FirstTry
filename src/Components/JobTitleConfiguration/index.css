@@ -1,0 +1,87 @@
+.body {
+    margin-left: 280px;
+    /* border: 1px solid red; */
+}
+
+.body .top-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border-bottom: 2px solid gray; */
+    box-shadow: 0 8px 6px -6px gray;
+}
+
+.body .top-section .text-group .title-text {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: fit-content;
+}
+
+.body .top-section .text-group .title-text::before {
+    content: "";
+    display: inline-block;
+    width: 3px;
+    height: 40px;
+    background: #CD5C5C;
+    vertical-align: middle;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.body .top-section .text-group .title-text .sub-title-text {
+    color: gray;
+    font-size: 12px;
+}
+
+.body .top-section .btn-group .btn-add-job-title {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.body .table-section {
+    /* border: 1px solid red; */
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.body .table-section table {
+    margin-left: 30px;
+    border-collapse: collapse;
+    width: 97%;
+}
+
+.body .table-section table td, .body .table-section table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.body .table-section table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.body .table-section table tr:hover {
+    background-color: #ddd;
+}
+
+.body .table-section table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: blue;
+    font-size: 16px;
+    background-color: whitesmoke;
+}

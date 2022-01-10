@@ -9,8 +9,6 @@ const MenuItem = (props) => {
     const { name, subMenus, iconClassName, onClick, to } = props;
     const [isExpand, setIsExpand] = useState(false);
 
-    console.log(props);
-
     return <li onClick={props.onClick}>
         <Link to={to} className="menu-item" onClick={() => setIsExpand(!isExpand)}>
             <div className="menu-icon">
