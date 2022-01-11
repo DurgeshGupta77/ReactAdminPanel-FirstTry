@@ -30,8 +30,8 @@ const SideMenu = (props) => {
             ]
         },
         {
-            name: "Design",
-            to: "/design",
+            name: "Job Title",
+            to: "/job-title",
             iconClassName: 'FaDesktop'
         }
     ];
